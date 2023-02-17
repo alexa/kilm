@@ -1,0 +1,19 @@
+python tasks/inference.py \
+--dataset_name 'src/data/wikipedia.py' \
+--dataset_config_name wiki_para \
+--cache_dir $2 \
+--tokenizer_name $1 \
+--model_name_or_path $1 \
+--mlm_probability 0 \
+--poisson_lambda 3.0 \
+--mask_ent_probability 1 \
+--do_eval \
+--do_predict \
+--max_source_length 512 \
+--max_target_length 640 \
+--output_dir  \
+--preprocessing_num_workers 1 \
+--per_device_eval_batch_size 1 \
+--overwrite_cache \
+--add_prefix_to_decoder \
+--task lm 
