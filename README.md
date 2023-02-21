@@ -238,8 +238,28 @@ python tasks/inference_qa_task.py \
 # Citing KILM
 To cite this work please use the following:
 ```console
-TODO: To come
+Yan Xu, Mahdi Namazifar, Devamanyu Hazarika, Aishwarya Padmakumar, Yang Liu, Dilek Hakkanii-Tür; 
+"KILM: Knowledge Injection into Encoder-Decoder Language Models", 10.48550/ARXIV.2302.09170
+
+
 
 Bibtex:
-Some bitex
+
+@misc{https://doi.org/10.48550/arxiv.2302.09170,
+  doi = {10.48550/ARXIV.2302.09170},
+  
+  url = {https://arxiv.org/abs/2302.09170},
+  
+  author = {Xu, Yan and Namazifar, Mahdi and Hazarika, Devamanyu and Padmakumar, Aishwarya and Liu, Yang and Hakkani-Tür, Dilek},
+  
+  keywords = {Computation and Language (cs.CL), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  
+  title = {KILM: Knowledge Injection into Encoder-Decoder Language Models},
+  
+  publisher = {arXiv},
+  
+  year = {2023},
+  
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
 ```  
