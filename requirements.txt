@@ -1,5 +1,5 @@
 torch==1.13.1
-transformers==4.12.3
+transformers==4.30.0
 datasets>=1.8.0
 rouge_score
 fairscale==0.4.2
